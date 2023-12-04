@@ -8,6 +8,7 @@ import (
 
 func main() {
 	fmt.Println(solution.Solution2(given))
+	// problems with the input file
 }
 
 var given = `416.........................559...............417...............785.......900.......284...........503...796....992..........................

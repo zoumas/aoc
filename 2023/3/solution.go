@@ -129,6 +129,8 @@ func isPartNumber(r rune) bool {
 	return r != '.' && !unicode.IsDigit(r)
 }
 
+// This solution is particularly disgusting. A lot of repetition when checking the adjacencies.
+
 func Solution2(body string) int {
 	var sum int
 

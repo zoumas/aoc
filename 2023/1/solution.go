@@ -53,6 +53,7 @@ func Solution1(document string) int {
 	return sum
 }
 
+// An idea that didn't work out
 // func Solution2(document string) int {
 // 	replacer := strings.NewReplacer(
 // 		"one", "1",

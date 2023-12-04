@@ -7,10 +7,6 @@ import (
 )
 
 func main() {
-	// data, err := os.ReadFile("1.in")
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
 	fmt.Println(solution.Solution2(given))
 }
 
