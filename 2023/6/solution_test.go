@@ -28,3 +28,16 @@ Distance:  9  40  200`
 		t.Errorf("\ngot: %d\nwant: %d", got, want)
 	}
 }
+
+func BenchmarkSolution2(b *testing.B) {
+	given := `Time:        55     99     97     93
+Distance:   401   1485   2274   1405`
+
+	for i := 0; i < b.N; i++ {
+		got := solution.Solution2(given)
+		want := 39132886
+		if got != want {
+			b.Errorf("\ngot: %d\nwant: %d", got, want)
+		}
+	}
+}
