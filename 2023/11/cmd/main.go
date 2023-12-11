@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(solution.Solution1(given))
+	fmt.Println(solution.Solution2(given, 1e6-1))
 }
 
 var given = `.........................#.........................#.....................#........#..................#............#...............#.........
